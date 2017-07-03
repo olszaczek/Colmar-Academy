@@ -1,14 +1,16 @@
 html {
   font-family: "Helvetica", sans-serif;
   font-size: 16px;
+  line-height: 1.2rem;
 }
 
+/***************** Colors *****************/
 .grey-dark {
   color: rgb(74, 74, 74);
 }
 
 .grey-dark-background {
-  background-color: : rgb(74, 74, 74);
+  background-color: rgb(74, 74, 74);
 }
 
 .grey-medium {
@@ -16,7 +18,7 @@ html {
 }
 
 .grey-medium-background {
-  background-color: : rgb(133, 133, 133);
+  background-color: rgb(133, 133, 133);
 }
 
 .grey-light {
@@ -24,9 +26,26 @@ html {
 }
 
 .grey-light-background {
-  background-color: : rgb(216, 216, 216);
+  background-color: rgb(216, 216, 216);
 }
 
+.grey-very-light {
+  color: rgb(235, 235, 235);
+}
+
+.grey-very-light-background {
+  background-color: rgb(235, 235, 235);
+}
+
+.grey-white {
+  color: rgb(245, 245, 245);
+}
+
+.grey-white-background {
+  background-color: rgb(245, 245, 245);
+}
+
+/***************** Header *****************/
 .header {
   height: 4rem;
   padding-left: 1.5rem;
@@ -36,9 +55,14 @@ html {
   align-items: center;
 }
 
+.header img {
+  height: 52px;
+}
+
 .header-left {
   display: flex;
   align-items: center;
+  font-size: 1.5rem;
 }
 
 .header-right {
@@ -58,4 +82,142 @@ html {
   background-color: rgb(149, 224, 223);
   height: 4rem;
   width: 1rem;
+}
+
+/***************** Main Section *****************/
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-1 {
+  padding: 2rem 1.5rem;
+}
+
+.section-2 {
+  padding: 2rem 1.5rem;
+}
+
+.section-3 {
+  text-align: center;
+}
+
+.section-4 {
+  height: 500px;
+}
+
+.section-1 > .section-horizontal > .section-vertical {
+  padding-left: 2.5rem;
+}
+
+.section-2 > .section-horizontal > .section-vertical {
+  padding-right: 1.5rem;
+}
+
+.section-2 > .section-horizontal > .section-information > .section-horizontal > .section-vertical {
+  padding-left: 1rem;
+}
+
+/***************** Flex Containers *****************/
+.section-horizontal {
+  display: flex;
+  align-items: center;
+}
+
+.section-vertical {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-information {
+  width: 423px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.learning-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section-information-item {
+  padding: 1rem;
+}
+
+.section-item-10 {
+  width: 100%;
+}
+
+.section-item-6 {
+  width: 60%;
+}
+
+.section-item-4 {
+  width: 40%;
+}
+
+.section-item-3 {
+  width: 30%;
+}
+
+/***************** Text *****************/
+.title-large {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-weight: 900;
+}
+
+.title-medium {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-weight: 900;
+  padding-top: 2rem;
+}
+
+.title-small {
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.content-spaced {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding: 1.5rem 0;
+}
+
+.content-spaced-small {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 1.5rem 0;
+}
+
+.content-small {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding: 0.5rem 0;
+}
+
+.content-tiny {
+  font-size: 0.5rem;
+  line-height: 1rem;
+}
+
+/***************** Other *****************/
+.button {
+  text-align: center;
+  padding: 0.5rem 0;
+  color: white;
+}
+
+.link {
+  color: rgb(120, 170, 220);
+}
+
+.small-img {
+  width: 200px;
+  padding: 1rem 1rem;
 }
