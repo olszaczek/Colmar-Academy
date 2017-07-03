@@ -1,0 +1,61 @@
+html {
+  font-family: "Helvetica", sans-serif;
+  font-size: 16px;
+}
+
+.grey-dark {
+  color: rgb(74, 74, 74);
+}
+
+.grey-dark-background {
+  background-color: : rgb(74, 74, 74);
+}
+
+.grey-medium {
+  color: rgb(133, 133, 133);
+}
+
+.grey-medium-background {
+  background-color: : rgb(133, 133, 133);
+}
+
+.grey-light {
+  color: rgb(216, 216, 216);
+}
+
+.grey-light-background {
+  background-color: : rgb(216, 216, 216);
+}
+
+.header {
+  height: 4rem;
+  padding-left: 1.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-title-1 {
+  font-weight: 900;
+}
+
+.header-title-2 {
+  font-weight: 200;
+}
+
+.header .divisor {
+  background-color: rgb(149, 224, 223);
+  height: 4rem;
+  width: 1rem;
+}
